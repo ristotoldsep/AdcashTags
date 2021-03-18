@@ -1,7 +1,7 @@
 # AdcashTags
 
 Test Assignment for Software Engineering Internship - Front End
-* Tags input with CRUD Operations
+* Tags input with CRUD Operations & LocalStorage api (saves the tags in the browser = will not disappear when refreshing)
 
 ### Created with: 
 * HTML
@@ -25,10 +25,14 @@ Clone/Fork the repo and run "npm install" on the CLI
 * Tags get added to the list when:
   * Writing "," or ";" to the end of the string or pressing Enter
   * Pressing the button "Add tag"
+* Tags with positive numbers (and 0) are colored to red, negative numbers are colored to blue
 
 ### Editing tags
 ![picture](assets/img/adcash_2.png)
 * Users can edit tags by pressing the edit icon
   * Pressing "Save Tag" after editing updates the selected tag!
+
+### Deleting tags
+* Users can delete tags separately or all with one click!
 
 Code is far from perfect and I can most likely do better, will refactor & improve it when I have free time!
