@@ -31,4 +31,7 @@ Clone/Fork the repo and run "npm install" on the CLI
 * Users can edit tags by pressing the edit icon
   * Pressing "Save Tag" after editing updates the selected tag!
 
+### Deleting tags
+* Users can delete tags separately or all with one click!
+
 Code is far from perfect and I can most likely do better, will refactor & improve it when I have free time!
