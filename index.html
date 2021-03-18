@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header class="bg-dark mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar justify-content-between">
+                        <a class="navbar-brand">AdCash Project</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="todo-outer">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-sm-12 col-md-8">
+                    <h1>Tags input app</h1>
+                    <div class="todo-inner">
+                        <div class="form-row">
+                            <div class="col-12 ">
+                                <input type="text" class="form-control" placeholder="Enter your tag" id="addtaginput" />
+                                <input type="hidden" id="saveindex">
+                            </div>
+                            <div class="buttons col-12">
+                                <button type="button" class="btn btn-success mr-sm-2" id="addtagbtn">
+                                Add Tag
+                                </button>
+                                <button type="button" class="btn btn-success mr-sm-2" id="savetagbtn"
+                                    style="display: none;">
+                                    Save Tag
+                                </button>
+                                <button type="button" id="deleteallbtn" class="btn btn-danger">
+                                    Delete All
+                                </button>
+                            </div>
+                            
+                        </div>
+                        <div class="to-do-output">
+                            <ul class="table table-striped mt-3 mb-0" id="addedtaglist">
+                                <!-- Tags will be generated here with JS -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-text"></p>
+        </div>
+
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
