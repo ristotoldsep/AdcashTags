@@ -25,6 +25,7 @@ Clone/Fork the repo and run "npm install" on the CLI
 * Tags get added to the list when:
   * Writing "," or ";" to the end of the string or pressing Enter
   * Pressing the button "Add tag"
+* Tags with positive numbers (and 0) are colored to red, negative numbers are colored to blue
 
 ### Editing tags
 ![picture](assets/img/adcash_2.png)
