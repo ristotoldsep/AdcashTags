@@ -1,7 +1,7 @@
 # AdcashTags
 
 Test Assignment for Software Engineering Internship - Front End
-* Tags input with CRUD Operations
+* Tags input with CRUD Operations & LocalStorage api (saves the tags in the browser = will not disappear when refreshing)
 
 ### Created with: 
 * HTML
