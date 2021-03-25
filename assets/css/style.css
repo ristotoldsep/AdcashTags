@@ -16,18 +16,22 @@ header .navbar {
   padding: .5rem 0; }
 
 header nav.navbar .navbar-brand {
-  color: #fff; }
+  color: #fff;
+  transition: 1s; }
 
-section.todo-outer {
+header nav.navbar .navbar-brand:hover {
+  transform: scale(1.1); }
+
+section.tags-outer {
   width: 100%;
   float: left;
   padding: 30px 0; }
 
-section.todo-outer h1 {
+section.tags-outer h1 {
   font-size: 40px;
   margin-bottom: 20px; }
 
-.todo-inner {
+.tags-inner {
   width: 100%;
   float: left;
   padding: 40px;
@@ -99,7 +103,7 @@ ul li button {
   cursor: pointer; }
 
 .buttons {
-  margin: 10px 0px;
+  margin: 10px 10px;
   display: flex;
   justify-content: center; }
 
@@ -108,3 +112,9 @@ ul li button {
 
 .blue_tag {
   background-color: #93dcf5; }
+
+#addtagbtn,
+#savetagbtn,
+#deleteallbtn {
+  margin: 7px;
+  box-sizing: border-box; }

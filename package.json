@@ -4,7 +4,7 @@
   "description": "JS Tags input with CRUD AdCash Test project",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass assets/scss/main.scss assets/css/style.css -w"
+    "compile:sass": "node-sass assets/scss/main.scss assets/css/style.css"
   },
   "author": "Risto Tõldsep",
   "license": "ISC",
